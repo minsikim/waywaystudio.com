@@ -1,0 +1,306 @@
+@keyframes hoverInfinite{
+    0%{
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+}
+    50%{
+        transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -o-transform: translateY(-10px);
+}
+    100%{
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+}
+}
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    color: #515150;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a,
+a:hover,
+a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, li{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.MainWrapper{
+    background-color: #FDFCF9;
+}
+    .HomeWrapper{
+        height: 100vh;
+        width: 100%;
+        min-height: 600px;
+        background-color: #F4F1E0;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 1;
+    }
+    .HomeWrapper > div{
+        
+    }
+        .Title{
+            min-height: 20vh;
+            padding-top: 10vh;
+            box-sizing: border-box;
+        }
+        .MainImageSection{
+            min-height: 40vh;
+            padding: auto 0px;
+            box-sizing: border-box;
+            display: flex;
+            overflow: hidden;
+        }
+            .MainImageSection ul{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            .MainImageSection ul li{
+                position: relative;
+            }
+            .MainImageSection ul li h1{
+                position: absolute;
+                margin: 0px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -55%);
+                -webkit-transform: translate(-50%, -55%);
+                -moz-transform: translate(-50%, -55%);
+                -ms-transform: translate(-50%, -55%);
+                -o-transform: translate(-50%, -55%);
+                opacity: 0;
+                transition: all .5s ease-out;
+                -webkit-transition: all .5s ease-out;
+                -moz-transition: all .5s ease-out;
+                -ms-transition: all .5s ease-out;
+                -o-transition: all .5s ease-out;
+                font-size: 100%;
+}
+            .MainImageSection ul li:hover h1{
+                opacity: 0.5;
+            }
+        .CompanyLogo{
+            height: 15vh;
+        }
+        .LinkSection{
+            height: 25vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            /* overflow-x: hidden; */
+        }
+            .LinkSection > ul{
+                display: flex;
+                flex-direction: row;
+                width: 900px;
+                /* flex-wrap: wrap; */
+                justify-content: center;
+            }
+            .LinkSection > ul li{
+                width: 300px;
+            }
+            .LinkSection .Demo p{
+                font-size: 75%;
+            }
+            .LinkSection .Demo img{
+                width: 200px;
+            }
+            .LinkSection .GetIt ul{
+                display: flex;
+                flex-direction: row;
+            }
+            .LinkSection .GetIt ul li{
+                width: 100px;
+                font-size: 75%;
+            }
+            .LinkSection ul li > h3{
+                margin-bottom: 10px;
+            }
+            .LinkSection ul li > div{
+                height: 70px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            .LinkSection .GetIt ul li p{
+                margin-top: 8px;
+            }
+            .LinkSection .GetIt ul li img{
+                width: 70px;
+            }
+        .SocialNetworkSection{
+            position: absolute;
+            width: 100%;
+            height: 20vh;
+            bottom: 0px;
+            transform: translateY(100%);
+            -webkit-transform: translateY(100%);
+            -moz-transform: translateY(100%);
+            -ms-transform: translateY(100%);
+            -o-transform: translateY(100%);
+}
+            .SocialNetworkSection h3{
+                margin: 10px 10px;
+            }
+            .SocialNetworkSection .SocialIcons{
+                display: flex;
+                justify-content: center;
+                height: 50px;
+            }
+            .SocialNetworkSection .SocialIcons img{
+                width: 50px;
+                margin: 0px 5px;
+            }
+        .RoundDown{
+            position: absolute;
+            width: 100%;
+            bottom: 0px;
+            transform: translateY(50%);
+            z-index: -1;
+            -webkit-transform: translateY(50%);
+            -moz-transform: translateY(50%);
+            -ms-transform: translateY(50%);
+            -o-transform: translateY(50%);
+}
+    .IntroductionWrapper{
+        height: 100vh;
+        min-height: 600px;
+        background-color: #FDFCF9;
+    }
+    .TextSectionWrapper{
+        height: 100vh;
+        min-height: 600px;
+        background-color: #373737;
+    }
+    .ScreenshotWrapper{
+        height: 100vh;
+        min-height: 600px;
+        background-color: #373737;
+    }
+    .Footer{
+        height: 300px;
+        background-color: #373737;
+    }
+        .Footer .LinkSection.Dark{
+            color: #FDFCF9;
+        }
+.Title img{
+    width: 300px;
+}
+.Numbers{
+    margin: 0px 15px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+}
+.Numbers img{
+    width: 90px;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+}
+.Numbers:hover{
+    margin: 0px 100px;
+}
+.Numbers:hover img{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.Numbers.GameIcon img{
+    width: 150px;
+    animation: hoverInfinite 1s ease-in-out infinite;
+    -webkit-animation: hoverInfinite 1s ease-in-out infinite;
+    -webkit-filter: drop-shadow(0px 0px 25px rgba(255,255,255,1));
+}
+.CompanyLogo img{
+    width: 120px;
+}
+.Spacer{
+    height: 400px;
+    width: 100%;
+}
+
+@media (max-width: 900px){
+    .LinkSection > ul{
+        width: 350px;
+        flex-wrap: wrap;
+    }
+    .LinkSection > ul > li{
+        margin: 30px 0px;
+    }
+    .SocialNetworkSection{
+        position: absolute;
+        width: 100%;
+        height: 20vh;
+        bottom: 0px;
+        transform: translateY(50%);
+        -webkit-transform: translateY(50%);
+        -moz-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+        -o-transform: translateY(50%);
+    }
+    .RoundDown{
+        /* display: none; */
+    }
+    .Spacer{
+        height: 200px;
+    }
+    body{
+        background-color: #F4F1E0;
+    }
+    .Title img{
+        width: 250px;
+    }
+}
+@media (max-width: 900px) and (orientation: landscape){
+    .HomeWrapper{
+        height: 280vh;
+    }
+}
+@media (max-width: 900px) and (orientation: portrait){
+    .HomeWrapper{
+        height: 150vh;
+    }
+}
+@media (max-width: 500px){
+    .HomeWrapper{
+        height: 200vh;
+    }
+}
