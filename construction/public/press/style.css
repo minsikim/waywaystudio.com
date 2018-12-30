@@ -1,11 +1,24 @@
 body {
 	padding: 15px 0;
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-family: "Lato", Arial, Helvetica, sans-serif;
 	font-size: 0.9em;
 	line-height:1.6em;
-	background-color: #f5f2e4;
+	background-color: #F4F1E0;
+	background-image: none;
+	color: #333;
 }
-
+a{
+	color: rgb(161, 137, 91);
+}
+a:hover{
+	color: rgb(94, 79, 51);
+}
+::selection {
+	background: rgb(182, 173, 154);
+  }
+  ::-moz-selection {
+	background: rgb(182, 173, 154);
+  }
 img {
 	width: 100%;
 }
@@ -29,7 +42,10 @@ img {
 }
 
 #content h2 {
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: "Lato", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: rgb(153, 132, 97);
 }
 
 #content img.header {
@@ -72,4 +88,9 @@ img {
 	h2 {
 		margin-top: 25px;
 	}
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Lato", Arial, Helvetica, sans-serif;
+	font-weight: 700;
 }
