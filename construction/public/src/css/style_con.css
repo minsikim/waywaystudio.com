@@ -161,7 +161,8 @@ h1,h2,h3,h4,h5,h6,p{
         .SocialNetworkSection{
             position: relative;
             width: 100%;
-            height: 200px;
+            /* height: 200px; */
+            padding: 50px 0px;
         }
             .SocialNetworkSection h3{
                 margin: 10px 10px;
@@ -189,6 +190,7 @@ h1,h2,h3,h4,h5,h6,p{
     .IntroductionWrapper{
         /* height: 100vh; */
         min-height: 600px;
+        padding: 50px 0px;
         background-color: #373737;
         text-align: center;
         display: flex;
@@ -384,7 +386,8 @@ h1,h2,h3,h4,h5,h6,p{
     .SocialNetworkSection{
         position: relative;
         width: 100%;
-        height: 200px;
+        /* height: 200px; */
+        padding: 50px 0px;
     }
     .RoundDown{
         /* display: none; */
