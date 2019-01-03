@@ -223,6 +223,7 @@ h1,h2,h3,h4,h5,h6,p{
         }
         .Trailer, .Trailer>iframe{
             width: 960px;
+            
             height: 540px;
         }
     .TextSectionWrapper{
@@ -397,6 +398,10 @@ h1,h2,h3,h4,h5,h6,p{
     }
     .Title img{
         width: 250px;
+    }
+    .Trailer, .Trailer>iframe{
+        max-width: 100vw;
+        max-height: 56.25vw;
     }
 }
 @media (max-width: 900px) and (orientation: landscape){
