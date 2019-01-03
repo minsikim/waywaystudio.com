@@ -30,6 +30,7 @@ body{
     color: #515150;
     font-family: 'Lato', sans-serif;
     background-color: #F4F1E0;
+    overflow-x: hidden;
 }
 a,
 a:hover,
@@ -52,7 +53,7 @@ h1,h2,h3,h4,h5,h6,p{
     background-color: #FDFCF9;
 }
     .HomeWrapper{
-        height: 100vh;
+        /* height: 100vh; */
         width: 100%;
         min-height: 600px;
         background-color: #F4F1E0;
@@ -111,7 +112,7 @@ h1,h2,h3,h4,h5,h6,p{
             height: 15vh;
         }
         .LinkSection{
-            height: 25vh;
+            /* height: 25vh; */
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -186,7 +187,7 @@ h1,h2,h3,h4,h5,h6,p{
             -o-transform: translateY(50%);
 }
     .IntroductionWrapper{
-        height: 100vh;
+        /* height: 100vh; */
         min-height: 600px;
         background-color: #373737;
         text-align: center;
@@ -197,6 +198,7 @@ h1,h2,h3,h4,h5,h6,p{
     }
         .Description{
             color: rgba(255,255,255,0.7);
+            padding: 0px 20px;
         }
             .Description h3{
                 font-size: 28px;
@@ -222,7 +224,7 @@ h1,h2,h3,h4,h5,h6,p{
             height: 540px;
         }
     .TextSectionWrapper{
-        height: 100vh;
+        /* height: 100vh; */
         min-height: 600px;
         background-color: #373737;
     }
@@ -396,16 +398,16 @@ h1,h2,h3,h4,h5,h6,p{
 }
 @media (max-width: 900px) and (orientation: landscape){
     .HomeWrapper{
-        height: 280vh;
+        /* height: 280vh; */
     }
 }
 @media (max-width: 900px) and (orientation: portrait){
     .HomeWrapper{
-        height: 150vh;
+        /* height: 150vh; */
     }
 }
 @media (max-width: 500px){
     .HomeWrapper{
-        height: 200vh;
+        /* height: 200vh; */
     }
 }
