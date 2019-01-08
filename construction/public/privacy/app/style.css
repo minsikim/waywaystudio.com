@@ -1,0 +1,33 @@
+body {
+	padding: 15px 0;
+	font-family: "Lato", Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	line-height:1.6em;
+	background-color: #F4F1E0;
+	background-image: none;
+	color: #333;
+}
+.Privacy{
+	margin: auto;
+	max-width: 900px;
+}
+a{
+	color: rgb(161, 137, 91);
+}
+a:hover{
+	color: rgb(94, 79, 51);
+}
+::selection {
+	background: rgb(182, 173, 154);
+  }
+  ::-moz-selection {
+	background: rgb(182, 173, 154);
+  }
+img {
+	width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Lato", Arial, Helvetica, sans-serif;
+	font-weight: 700;
+}
