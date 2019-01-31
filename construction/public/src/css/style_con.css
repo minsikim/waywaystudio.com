@@ -131,7 +131,9 @@ h1,h2,h3,h4,h5,h6,p{
             .LinkSection .Demo p{
                 font-size: 75%;
             }
-            .LinkSection .Demo p > strong{
+            .LinkSection .Demo p > strong,
+            .LinkSection .GetIt p > strong,
+            .Title strong{
                 color: rgb(180, 160, 121);
             }
             .LinkSection .Demo img{
